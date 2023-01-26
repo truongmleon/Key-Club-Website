@@ -10,7 +10,7 @@ const Header = () => {
       let value;
       count++;
       console.log(count);
-      if (count >= 50) {
+      if (count >= 20) {
         value = Math.floor(Math.random() * 100 + 1).toString();
         output!.innerHTML = value;
 
