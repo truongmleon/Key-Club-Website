@@ -6,7 +6,8 @@ const Navbar = () => {
       <nav>
         <ul>
           <li>Home</li>
-          <li>About</li>
+          <li>About KC</li>
+          <li>Meet the Board</li>
           <li>Resources</li>
           <li>Announcements</li>
           <li>Contact</li>
@@ -15,6 +16,5 @@ const Navbar = () => {
     </div>
   )
 }
-
 
 export default Navbar;
