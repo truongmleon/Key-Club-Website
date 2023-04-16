@@ -9,4 +9,15 @@ body, html {
 
 ul {
     list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#logo {
+    width: 70px;
+    position: absolute;
+}
+
+nav {
+    background-color: aliceblue;
 }
