@@ -11,7 +11,9 @@ const Navbar = () => {
   return (
     <div className="">
       <nav>
+        <ul>
         {htmlNav}
+        </ul>
       </nav>
     </div>
   )
