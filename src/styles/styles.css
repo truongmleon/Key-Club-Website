@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Wix+Madefor+Text&display=swap");
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -14,10 +15,27 @@ ul {
 }
 
 #logo {
+  pointer-events: none;
   width: 70px;
   position: absolute;
 }
 
 nav {
+  padding: 15px;
   background-color: aliceblue;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-family: "Wix Madefor Text", sans-serif;
+  font-size: 1.5em;
+  transition: 0.3s;
+}
+
+a:hover {
+  text-shadow: 2px 2px #91ffff;
 }/*# sourceMappingURL=styles.css.map */
