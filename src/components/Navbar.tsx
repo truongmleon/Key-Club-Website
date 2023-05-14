@@ -1,14 +1,12 @@
-import React from "react";
-
-let load = (id: string): React.MouseEventHandler<HTMLAnchorElement> => {
-  throw new Error("Function not implemented.");
-}
+import React, { ReactElement } from "react";
 
 let navRows: string[] = ["Home", "Meet the Board", "Resources", "Announcements", "Contact"];
 let htmlNav: React.ReactElement<any, string | React.JSXElementConstructor<any>> | JSX.Element[] = [];
+let html: string = 'e <b>ipsum</b>';
 
 for (let i = 0; i < navRows.length; i++) {
-  htmlNav.push(<li><a onClick={load(navRows[i].toLowerCase())} href={"#" + navRows[i].toLowerCase()}>{navRows[i]}</a></li>);
+  let change = document.getElementById(navRows[i].toLowerCase());
+  htmlNav.push(<li><a href={"#" + navRows[i].toLowerCase()}>{navRows[i]}</a></li>);
 }
 
 const Navbar = () => {
