@@ -6,8 +6,16 @@ $font2: "myriad-pro-condensed", sans-serif;
     font-family: $font1;
     font-style: normal;
     letter-spacing: 2px;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 3em;
 }
 
 #Layer_1 {
-    width: 200px;
+    width: 300px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
 }
