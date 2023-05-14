@@ -13,7 +13,6 @@ for (let i = 0; i < navRows.length; i++) {
 const Navbar = () => {
   return (
     <div className="">
-    
       <nav>
         <img id="logo" src="src/images/logo.png" alt="Key Club Logo" />
         <ul>
