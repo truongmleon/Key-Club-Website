@@ -1,7 +1,9 @@
 const Home = () => {
     return (
         <div id="home">
-            <img id="kctext" src="src/images/kwkc.png" alt="Key Club Letters" />
+            <svg>
+                
+            </svg>
             <h1 id="title">Kentwood High School</h1>    
         </div>
     )

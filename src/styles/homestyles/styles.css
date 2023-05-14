@@ -6,5 +6,6 @@
 }
 
 #kctext {
+  image-rendering: crisp-edges;
   width: auto;
 }/*# sourceMappingURL=styles.css.map */
