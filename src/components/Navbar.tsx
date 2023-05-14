@@ -9,7 +9,7 @@ let htmlNav: React.ReactElement<any, string | React.JSXElementConstructor<any>> 
 
 for (let i = 0; i < navRows.length; i++) {
   let id = navRows[i].toLowerCase();
-  htmlNav.push(<li><h1 onClick={() => load(navRows[i])} >{navRows[i]}</h1></li>);
+  htmlNav.push(<li><h1 onClick={() => load(id)} >{navRows[i]}</h1></li>);
 }
 
 const Navbar = () => {
