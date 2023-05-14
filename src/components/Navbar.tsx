@@ -1,12 +1,15 @@
 import React, { ReactElement } from "react";
 
-let navRows: string[] = ["Home", "Meet the Board", "Resources", "Announcements", "Contact"];
+let load = (id: string) => {
+  window.location.href = id.replace(/\s+/g, '') + ".html";
+}
+
+let navRows: string[] = ["Home", "KW Board", "Resources", "Announcements", "Contact"];
 let htmlNav: React.ReactElement<any, string | React.JSXElementConstructor<any>> | JSX.Element[] = [];
-let html: string = 'e <b>ipsum</b>';
 
 for (let i = 0; i < navRows.length; i++) {
-  let change = document.getElementById(navRows[i].toLowerCase());
-  htmlNav.push(<li><a href={"#" + navRows[i].toLowerCase()}>{navRows[i]}</a></li>);
+  let id = navRows[i].toLowerCase();
+  htmlNav.push(<li><h1 onClick={() => load(navRows[i])} >{navRows[i]}</h1></li>);
 }
 
 const Navbar = () => {
