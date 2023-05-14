@@ -12,7 +12,7 @@ ul {
 
 #logo {
   pointer-events: none;
-  width: 100px;
+  width: 9vw;
   position: absolute;
   border: double #000 9px;
   background-color: hsl(0, 0%, 99%);
@@ -37,7 +37,7 @@ nav {
   text-decoration: none;
   color: #000000;
   font-family: "Wix Madefor Text", sans-serif;
-  font-size: 1.5em;
+  font-size: 2vw;
   transition: 0.3s;
   font-weight: 600;
 }
