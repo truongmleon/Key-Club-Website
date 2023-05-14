@@ -1,5 +1,3 @@
-import React, { ReactElement } from "react";
-
 let load = (id: string) => {
   id !== "home" ? window.location.href = id.replace(/\s+/g, '') + ".html" : window.location.href = "/";
 }
