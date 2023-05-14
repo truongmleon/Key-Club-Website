@@ -1,9 +1,7 @@
 const Home = () => {
     return (
         <div id="home">
-            <svg>
-                
-            </svg>
+            <br/>
             <h1 id="title">Kentwood High School</h1>    
         </div>
     )
