@@ -1,7 +1,7 @@
 import React, { ReactElement } from "react";
 
 let load = (id: string) => {
-  window.location.href = id.replace(/\s+/g, '') + ".html";
+  id !== "home" ? window.location.href = id.replace(/\s+/g, '') + ".html" : window.location.href = "/";
 }
 
 let navRows: string[] = ["Home", "KW Board", "Resources", "Announcements", "Contact"];
