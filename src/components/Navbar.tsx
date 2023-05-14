@@ -1,12 +1,12 @@
-let load = (id: string) => {
+const load = (id: string) => {
   id !== "home" ? window.location.href = id.replace(/\s+/g, '') + ".html" : window.location.href = "/";
 }
 
-let navRows: string[] = ["Home", "KW Board", "Resources", "Announcements", "Contact"];
+const navRows: string[] = ["Home", "KW Board", "Resources", "Announcements", "Contact"];
 let htmlNav: React.ReactElement<any, string | React.JSXElementConstructor<any>> | JSX.Element[] = [];
 
 for (let i = 0; i < navRows.length; i++) {
-  let id = navRows[i].toLowerCase();
+  const id = navRows[i].toLowerCase();
   htmlNav.push(<li><h1 className="nav" onClick={() => load(id)} >{navRows[i]}</h1></li>);
 }
 
