@@ -20,3 +20,29 @@ $font2: "myriad-pro-condensed", sans-serif;
     display: flex;
     justify-content: center;
 }
+
+.filler {
+    border: double #000 12px;
+    background-color: #fff;
+}
+
+#kw {
+    width: 170px;
+    margin-top: 30px;
+}
+
+#int {
+    position: relative;
+    padding: 15px;
+}
+
+#key {
+    padding: 15px;
+}
+
+#images {
+    margin-top: 140px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
