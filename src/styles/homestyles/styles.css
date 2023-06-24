@@ -57,13 +57,13 @@
   font-family: "myriad-pro", sans-serif;
   font-size: 5vw;
   border-bottom: 12px double #000;
-  width: 70vw;
+  width: 80vw;
   position: relative;
   left: 100px;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
-  margin: 10px;
+  margin: 10px 0 0 0;
   padding: 0;
 }
 
@@ -71,8 +71,29 @@
   font-family: "myriad-pro", sans-serif;
   font-size: 2vw;
   position: relative;
-  left: 100px;
+  left: -150px;
   -webkit-user-select: none;
      -moz-user-select: none;
           user-select: none;
+}
+
+#info {
+  font-family: "myriad-pro", sans-serif;
+  font-size: 1vw;
+  position: flex;
+  align-items: center;
+  width: 400px;
+  height: 200px;
+  background-color: #fafafa;
+  border: double 9px #000;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+#division {
+  display: flex;
+  justify-content: space-evenly;
 }/*# sourceMappingURL=styles.css.map */

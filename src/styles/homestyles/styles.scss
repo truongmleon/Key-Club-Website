@@ -56,11 +56,11 @@ $font2: "myriad-pro-condensed", sans-serif;
     font-family: $font1;
     font-size: 5vw;
     border-bottom: 12px double #000;
-    width: 70vw;
+    width: 80vw;
     position: relative;
     left: 100px;
     user-select: none;
-    margin: 10px;
+    margin: 10px 0 0 0;
     padding: 0;
 }
 
@@ -68,6 +68,27 @@ $font2: "myriad-pro-condensed", sans-serif;
     font-family: $font1;
     font-size: 2vw;
     position: relative;
-    left: 100px;
+    left: -150px;
     user-select: none;
+}
+
+#info {
+    font-family: $font1;
+    font-size: 1vw;
+    position: flex;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    background-color: #fafafa;
+    border: double 9px #000;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+#division {
+    display: flex;
+    justify-content: space-evenly;
 }
