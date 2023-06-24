@@ -46,3 +46,7 @@ $font2: "myriad-pro-condensed", sans-serif;
     justify-content: space-evenly;
     position: relative;
 }
+
+#int, #key, #kw { 
+    box-shadow: 7px 7px 13px 2px rgba(100, 100, 100, 0.2);
+}
