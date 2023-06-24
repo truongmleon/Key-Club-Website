@@ -1,0 +1,5 @@
+#announcements {
+  display: flex;
+  justify-content: space-evenly;
+  z-index: 10;
+}/*# sourceMappingURL=styles.css.map */
