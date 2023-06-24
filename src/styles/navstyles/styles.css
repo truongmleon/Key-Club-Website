@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Wix+Madefor+Text&display=swap");
-ul {
+#nav-list {
   position: relative;
   list-style-type: none;
   display: flex;
@@ -23,6 +23,7 @@ ul {
 }
 
 nav {
+  z-index: 20;
   background-color: azure;
   -webkit-user-select: none;
      -moz-user-select: none;

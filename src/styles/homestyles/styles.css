@@ -27,7 +27,6 @@
 
 #kw {
   width: 170px;
-  margin-top: 30px;
 }
 
 #int {
@@ -48,6 +47,10 @@
 
 #int, #key, #kw {
   box-shadow: 7px 7px 13px 2px rgba(100, 100, 100, 0.2);
+  z-index: 1;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }
 
 #schools {
@@ -55,6 +58,16 @@
   font-size: 5vw;
   border-bottom: 12px double #000;
   width: 70vw;
+  position: relative;
+  left: 100px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.schools {
+  font-family: "myriad-pro", sans-serif;
+  font-size: 2vw;
   position: relative;
   left: 100px;
   -webkit-user-select: none;
