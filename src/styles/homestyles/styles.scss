@@ -40,7 +40,7 @@ $font2: "myriad-pro-condensed", sans-serif;
 }
 
 #images {
-    margin-top: 140px;
+    margin-top: 250px;
     display: flex;
     justify-content: space-evenly;
     position: relative;
@@ -60,7 +60,10 @@ $font2: "myriad-pro-condensed", sans-serif;
     position: relative;
     left: 100px;
     user-select: none;
+    margin: 10px;
+    padding: 0;
 }
+
 
 .schools {
     font-family: $font1;
