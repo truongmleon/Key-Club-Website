@@ -43,17 +43,20 @@ $font2: "myriad-pro-condensed", sans-serif;
     text-shadow: 4px 4px #00000032;
     font-family: $font1;
     margin-top: 660px;
-    font-size: 3.5vw;
+    font-size: 3vw;
     text-align: center !important;
     user-select: none;
     border: 9px double #000;
     background-color: #fff;
-    width: 50%;
+    width: 60%;
     transition: 0.3s;
+    box-shadow: rgba(50, 50, 93, 0.25) 20px 50px 100px 10px;
 }
 
 #remind-title:hover {
+    font-size: 3.1vw;
     border: 12px double #000;
-    width: 60%;
+    width: 65%;
     height: 50%;
+    box-shadow: rgba(57, 57, 62, 0.25) 10px 5px 10px 5px;
 }
