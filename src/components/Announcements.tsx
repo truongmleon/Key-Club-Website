@@ -20,7 +20,7 @@ const Announcements = () => {
 
             <article>
                 <section className="blog-section">
-                    <h2 className="blog-title">District Project (2023-2024 School Year)</h2>
+                    <h2 className="blog-title">District Project for 2023-2024</h2>
                    
                     <p className="blog-paragraph">
                     The District Project Committee is excited to announce the new District Project for the 2023-2024 service year - Youth Houselessness.
@@ -40,12 +40,19 @@ const Announcements = () => {
                 </section>
 
                 <section className="blog-section">
-                    <h2 className="blog-title"><a href="https://pnwkeyclub.org/shop/key-club-day-north-2023/">Key Club Days North</a></h2>
-                    <ul className="blog-list">
+                    <h2 className="blog-title blog-link"><a href="https://pnwkeyclub.org/shop/key-club-day-north-2023/">Key Club Days North</a></h2>
+                    <ul className="blog-paragraph">
                         <li>FREE Key Club Days kick-off event will be available to you the night prior to event with high-quality workshops</li>
                         <li>In-person participants receive: lunch, all-day admission (until 6 PM) to Wild Waves, team-building activities by LTG, + a service project</li>
                         <li>Registration open until 08/25/2023 ($55)</li>
                         <li>12PM-2PM, Saturday September 9th @ Wild Waves</li>
+                    </ul>
+                </section>
+
+                <section className="blog-section">
+                    <h2 className="blog-title blog-link"><a href="https://www.google.com/" target="_blank">TBA</a></h2>
+                    <ul className="blog-paragraph">
+
                     </ul>
                 </section>
             </article>
