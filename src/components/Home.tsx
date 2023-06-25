@@ -1,3 +1,9 @@
+const info = document.getElementById("info");
+
+info?.addEventListener("click", () =>{
+    window.open("https://www.keyclub.org");
+});
+
 const Home = () => {
     return (
         <div id="home">

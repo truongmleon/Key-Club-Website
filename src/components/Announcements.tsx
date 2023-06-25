@@ -13,7 +13,7 @@ const Announcements = () => {
             <h2 id="disclaimer">May not work under KSD internet :(</h2>
 
             <div data-aos="fade-down" className="flex">
-            <h1 id="remind-title">Join Remind: text @kentwoodkc to 81010</h1>
+            <h1 onClick={() => window.open("https://www.remind.com/join/kentwoodkc")} id="remind-title">Join Remind: text @kentwoodkc to 81010</h1>
             </div>
 
             <article>
