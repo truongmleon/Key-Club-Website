@@ -42,7 +42,7 @@
 #remind-title {
   text-shadow: 4px 4px rgba(0, 0, 0, 0.1960784314);
   font-family: "myriad-pro", sans-serif;
-  margin-top: 680px;
+  margin-top: 660px;
   font-size: 3.5vw;
   text-align: center !important;
   -webkit-user-select: none;
@@ -51,4 +51,11 @@
   border: 9px double #000;
   background-color: #fff;
   width: 50%;
+  transition: 0.3s;
+}
+
+#remind-title:hover {
+  border: 12px double #000;
+  width: 60%;
+  height: 50%;
 }/*# sourceMappingURL=styles.css.map */
