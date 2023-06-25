@@ -1,4 +1,5 @@
 @import url("https://use.typekit.net/zmr3gei.css");
+@import url("https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap");
 #instagram {
   display: flex;
   justify-content: space-evenly;
@@ -61,4 +62,17 @@
   width: 65%;
   height: 50%;
   box-shadow: rgba(57, 57, 62, 0.25) 2px 5px 10px 5px;
+}
+
+.blog-section {
+  position: relative;
+  left: 90px;
+  width: 80%;
+}
+
+.blog-title {
+  font-family: "Bacasime Antique", serif;
+  font-size: 3vw;
+  border-bottom: double 12px #000;
+  width: 90%;
 }/*# sourceMappingURL=styles.css.map */

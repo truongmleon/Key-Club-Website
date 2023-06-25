@@ -1,6 +1,7 @@
 @import url("https://use.typekit.net/zmr3gei.css");
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
 $font1: "myriad-pro", sans-serif;
-$font2: "myriad-pro-condensed", sans-serif;
+$font2: 'Bacasime Antique', serif;
 
 
 #instagram {
@@ -59,4 +60,17 @@ $font2: "myriad-pro-condensed", sans-serif;
     width: 65%;
     height: 50%;
     box-shadow: rgba(57, 57, 62, 0.25) 2px 5px 10px 5px;
+}
+
+.blog-section {
+    position: relative;
+    left: 90px;
+    width: 80%;
+}
+
+.blog-title {
+    font-family: $font2;
+    font-size: 3vw;
+    border-bottom: double 12px #000;
+    width: 90%;
 }

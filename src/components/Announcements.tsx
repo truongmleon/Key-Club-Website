@@ -15,18 +15,10 @@ const Announcements = () => {
             <div data-aos="fade-down" className="flex">
             <h1 onClick={() => window.open("https://www.remind.com/join/kentwoodkc")} id="remind-title">Join Remind: text @kentwoodkc to 81010</h1>
             </div>
+            <br />
+            <br />
 
             <article>
-                <section className="blog-section">
-                    <h2 className="blog-title"><a href="https://pnwkeyclub.org/shop/key-club-day-north-2023/">Key Club Days North</a></h2>
-                    <ul className="blog-list">
-                        <li>Key Club Days kick-off event will be available to you the night prior to event (FREE high-quality workshops w/ RSVP)</li>
-                        <li>In-person participants receive: lunch, all-day admission (until 6 PM) to Wild Waves, team-building activities by LTG, + a service project</li>
-                        <li>Registration open until 08/25/2023 ($55)</li>
-                        <li>12PM-2PM, Saturday September 9th @ Wild Waves</li>
-                    </ul>
-                </section>
-
                 <section className="blog-section">
                     <h2 className="blog-title">District Project (2023-2024 School Year)</h2>
                    
@@ -45,6 +37,16 @@ const Announcements = () => {
                     <p className="blog-paragraph">
                     This year, we hope to serve 50,000 hours and donate $15,000 to help end youth houselessness. As Key Clubbers, we can make an impact by organizing food drives, creating packages of basic necessities, and fundraising for local organizations.  
                     </p> 
+                </section>
+
+                <section className="blog-section">
+                    <h2 className="blog-title"><a href="https://pnwkeyclub.org/shop/key-club-day-north-2023/">Key Club Days North</a></h2>
+                    <ul className="blog-list">
+                        <li>FREE Key Club Days kick-off event will be available to you the night prior to event with high-quality workshops</li>
+                        <li>In-person participants receive: lunch, all-day admission (until 6 PM) to Wild Waves, team-building activities by LTG, + a service project</li>
+                        <li>Registration open until 08/25/2023 ($55)</li>
+                        <li>12PM-2PM, Saturday September 9th @ Wild Waves</li>
+                    </ul>
                 </section>
             </article>
 
