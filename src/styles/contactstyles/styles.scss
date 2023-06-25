@@ -1,0 +1,13 @@
+@import url("https://use.typekit.net/zmr3gei.css");
+$font1: "myriad-pro", sans-serif;
+$font2: "myriad-pro-condensed", sans-serif;
+
+#contact-title {
+    font-family: $font1;
+    font-style: normal;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 4vw;
+    user-select: none;
+    text-shadow: 4px 4px #00000032;
+}

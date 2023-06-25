@@ -1,1 +1,12 @@
-/*# sourceMappingURL=styles.css.map */
+@import url("https://use.typekit.net/zmr3gei.css");
+#contact-title {
+  font-family: "myriad-pro", sans-serif;
+  font-style: normal;
+  margin-top: 80px;
+  text-align: center;
+  font-size: 4vw;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  text-shadow: 4px 4px rgba(0, 0, 0, 0.1960784314);
+}/*# sourceMappingURL=styles.css.map */

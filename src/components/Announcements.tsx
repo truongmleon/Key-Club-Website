@@ -56,7 +56,12 @@ const Announcements = () => {
                     </ul>
                 </section>
             </article>
-
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
         </div>
     )
 }
