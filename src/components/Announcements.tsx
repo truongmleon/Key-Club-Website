@@ -20,37 +20,37 @@ const Announcements = () => {
 
             <article>
                 <section className="blog-section">
-                    <h2 className="blog-title">District Project for 2023-2024</h2>
+                    <h2 data-aos="zoom-in" className="blog-title">District Project for 2023-2024</h2>
                    
-                    <p className="blog-paragraph">
+                    <p data-aos="fade-down" className="blog-paragraph">
                     The District Project Committee is excited to announce the new District Project for the 2023-2024 service year - Youth Houselessness.
                     </p>
 
-                    <p className="blog-paragraph">
+                    <p data-aos="fade-down" className="blog-paragraph">
                     They have developed the SEAD Initiative, which is an acronym for Support, Empower, Act, and Destigmatize.
                     </p>
 
-                    <p className="blog-paragraph">
+                    <p data-aos="fade-down" className="blog-paragraph">
                     Youth Houselessness is an extremely prevalent and tangible issue within the PNW. According to the Washington State Department of Commerce, there are approximately 13,000 unaccompanied youth and young adults in Washington State.
                     </p>
 
-                    <p className="blog-paragraph">
+                    <p data-aos="fade-down" className="blog-paragraph">
                     This year, we hope to serve 50,000 hours and donate $15,000 to help end youth houselessness. As Key Clubbers, we can make an impact by organizing food drives, creating packages of basic necessities, and fundraising for local organizations.  
                     </p> 
                 </section>
 
                 <section className="blog-section">
-                    <h2 className="blog-title blog-link"><a href="https://pnwkeyclub.org/shop/key-club-day-north-2023/">Key Club Days North</a></h2>
+                    <h2 data-aos="zoom-in" className="blog-title blog-link"><a href="https://pnwkeyclub.org/shop/key-club-day-north-2023/">Key Club Days North</a></h2>
                     <ul className="blog-paragraph">
-                        <li>FREE Key Club Days kick-off event will be available to you the night prior to event with high-quality workshops</li>
-                        <li>In-person participants receive: lunch, all-day admission (until 6 PM) to Wild Waves, team-building activities by LTG, + a service project</li>
-                        <li>Registration open until 08/25/2023 ($55)</li>
-                        <li>12PM-2PM, Saturday September 9th @ Wild Waves</li>
+                        <li data-aos="fade-up">FREE Key Club Days kick-off event will be available to you the night prior to event with high-quality workshops</li>
+                        <li data-aos="fade-up">In-person participants receive: lunch, all-day admission (until 6 PM) to Wild Waves, team-building activities by LTG, + a service project</li>
+                        <li data-aos="fade-up">Registration open until 08/25/2023 ($55)</li>
+                        <li data-aos="fade-up">12PM-2PM, Saturday September 9th @ Wild Waves</li>
                     </ul>
                 </section>
 
                 <section className="blog-section">
-                    <h2 className="blog-title blog-link"><a href="https://www.google.com/" target="_blank">TBA</a></h2>
+                    <h2 data-aos="flip-left" className="blog-title blog-link"><a href="https://www.google.com/" target="_blank">TBA</a></h2>
                     <ul className="blog-paragraph">
 
                     </ul>
