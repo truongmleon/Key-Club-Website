@@ -1,11 +1,17 @@
-const names = ["Anthony Luong", "Jason Mai", "Vicky Li", "Anissa Vichitthavong", "Emily Xu", "Leon Truong", "Meena Ha"];
-const positions = ["President", "Vice President", "Secretary", "Treasurer", "Bulletin Editor", "Webmaster", "Fundraising Head"];
-const emails = ["null", "jasonmai52007@gmail.com", "vickyli354949@gmail.com", "anissavichitthavong@gmail.com", "emilyxu567@gmail.com", "leonkeyclub1@gmail.com", "meenaha0223@gmail.com"]; 
+const names: string[] = ["Anthony Luong", "Jason Mai", "Vicky Li", "Anissa Vichitthavong", "Emily Xu", "Leon Truong", "Meena Ha", "Ethan Nguyen", "Jessica Chhoy", "Jung Lee"];
+const positions: string[] = ["President", "Vice President", "Secretary", "Treasurer", "Bulletin Editor", "Webmaster", "Fundraising Head"];
+const emails: string[] = ["NA", "jasonmai52007@gmail.com", "vickyli354949@gmail.com", "anissavichitthavong@gmail.com", "emilyxu567@gmail.com", "leonkeyclub1@gmail.com", "meenaha0223@gmail.com", "ooowweeishethan@gmail.com", "chhoyjessica@gmail.com", "ljung509@gmail.com"]; 
+const instagrams: string[] = ["https://www.instagram.com/antthienluong", "https://www.instagram.com/jason.mai07", "https://www.instagram.com/vickkyyy_", "https://www.instagram.com/anissavichitthavong", "https://www.instagram.com/em.xux", "https://www.instagram.com/leonmmtt/", "https://www.instagram.com/mha.vp", "https://www.instagram.com/viewethan", "https://www.instagram.com/chjessiica", "https://www.instagram.com/jung.1ee"];
 
 let officers: React.ReactElement<any, string | React.JSXElementConstructor<any>> | JSX.Element[] = [];
+let committee: React.ReactElement<any, string | React.JSXElementConstructor<any>> | JSX.Element[] = [];
 
 for (let i = 0; i < positions.length; i++) {
-  officers.push(<li>{names[i]} ({positions[i]}) --{">"} {emails[i]} || <a href="https://www.instagram.com/antthienluong" target="_blank">Instagram</a></li>);
+    officers.push(<li>{names[i]} ({positions[i]}) --{">"} <i>{emails[i]}</i> || <a href={instagrams[i]} target="_blank">Instagram</a></li>);
+}
+
+for (let i = positions.length; i < instagrams.length; i++) {
+    committee.push(<li>{names[i]} --{">"} <i>{emails[i]}</i> || <a href={instagrams[i]} target="_blank">Instagram</a></li>);
 }
 
 const Contact = () => {
@@ -16,16 +22,11 @@ const Contact = () => {
 
             <ul id="board-list">
                 <li id="board-title">Key Club Board</li>
-                <li>Anthony Luong (President) --{">"} email || <a href="https://www.instagram.com/antthienluong" target="_blank">Instagram</a></li>
-                <li>Jason Mai (Vice President) --{">"} <i>jasonmai52007@gmail.com </i>|| <a href="https://www.instagram.com/jason.mai07" target="_blank">Instagram</a></li>
-                <li>Vicky Li (Secretary) --{">"} <i>vickyli354949@gmail.com</i> || <a href="https://www.instagram.com/vickkyyy_" target="_blank">Instagram</a></li>
-                <li>Anissa Vichitthavong (Treasurer) --{">"} <i>anissavichitthavong@gmail.com</i> || <a href="https://www.instagram.com/anissavichitthavong" target="_blank">Instagram</a></li>
-                <li>Emily Xu (Bulletin Editor) --{">"} <i>emilyxu567@gmail.com</i> || <a href="https://www.instagram.com/em.xux" target="_blank">Instagram</a></li>
-                <li>Leon Truong (Webmaster) --{">"} <i>leonkeyclub1@gmail.com</i> || <a href="https://www.instagram.com/leonmmtt/" target="_blank">Instagram</a></li>
-                <li>Meena Ha (Fundraising Head) --{">"} <i>meenaha0223@gmail.com</i> || <a href="https://www.instagram.com/mha.vp" target="_blank">Instagram</a></li>
-                <li>Club Committees</li>
+                {officers}
+                
+                <li>Club Committees:</li>
                 <ul>
-                    <li>Ethan Nguyen --{">"} ooowweeishethan@gmail.com || <a href="https://www.instagram.com/viewethan">Instagram</a></li>
+                {committee}
                 </ul>
             </ul> 
         </div>
