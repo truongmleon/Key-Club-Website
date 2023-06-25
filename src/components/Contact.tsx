@@ -1,3 +1,13 @@
+const names = ["Anthony Luong", "Jason Mai", "Vicky Li", "Anissa Vichitthavong", "Emily Xu", "Leon Truong", "Meena Ha"];
+const positions = ["President", "Vice President", "Secretary", "Treasurer", "Bulletin Editor", "Webmaster", "Fundraising Head"];
+const emails = ["null", "jasonmai52007@gmail.com", "vickyli354949@gmail.com", "anissavichitthavong@gmail.com", "emilyxu567@gmail.com", "leonkeyclub1@gmail.com", "meenaha0223@gmail.com"]; 
+
+let officers: React.ReactElement<any, string | React.JSXElementConstructor<any>> | JSX.Element[] = [];
+
+for (let i = 0; i < positions.length; i++) {
+  officers.push(<li>{names[i]} ({positions[i]}) --{">"} {emails[i]} || <a href="https://www.instagram.com/antthienluong" target="_blank">Instagram</a></li>);
+}
+
 const Contact = () => {
     return (
         <div id="contact">
@@ -13,6 +23,10 @@ const Contact = () => {
                 <li>Emily Xu (Bulletin Editor) --{">"} <i>emilyxu567@gmail.com</i> || <a href="https://www.instagram.com/em.xux" target="_blank">Instagram</a></li>
                 <li>Leon Truong (Webmaster) --{">"} <i>leonkeyclub1@gmail.com</i> || <a href="https://www.instagram.com/leonmmtt/" target="_blank">Instagram</a></li>
                 <li>Meena Ha (Fundraising Head) --{">"} <i>meenaha0223@gmail.com</i> || <a href="https://www.instagram.com/mha.vp" target="_blank">Instagram</a></li>
+                <li>Club Committees</li>
+                <ul>
+                    <li>Ethan Nguyen --{">"} ooowweeishethan@gmail.com || <a href="https://www.instagram.com/viewethan">Instagram</a></li>
+                </ul>
             </ul> 
         </div>
     )

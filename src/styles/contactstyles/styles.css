@@ -16,4 +16,14 @@
   font-family: "Ysabeau Infant", sans-serif;
   font-size: 1.7vw;
   padding: 5px;
+  position: relative;
+  left: 100px;
+}
+
+#board-title {
+  list-style-type: none;
+  font-size: 3vw !important;
+  left: 60px !important;
+  border-bottom: #000 double 9px;
+  width: 80%;
 }/*# sourceMappingURL=styles.css.map */
