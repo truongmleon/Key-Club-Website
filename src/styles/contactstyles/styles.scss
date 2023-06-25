@@ -1,6 +1,8 @@
 @import url("https://use.typekit.net/zmr3gei.css");
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant&display=swap');
+
 $font1: "myriad-pro", sans-serif;
-$font2: "myriad-pro-condensed", sans-serif;
+$font2: 'Ysabeau Infant', sans-serif;
 
 #contact-title {
     font-family: $font1;
@@ -10,4 +12,14 @@ $font2: "myriad-pro-condensed", sans-serif;
     font-size: 4vw;
     user-select: none;
     text-shadow: 4px 4px #00000032;
+}
+
+#board-list li {
+    font-family: $font2;
+    font-size: 1.7vw;
+    padding: 5px;
+}
+
+#board-title {
+    
 }
