@@ -40,6 +40,15 @@ const Announcements = () => {
                 </section>
 
                 <section className="blog-section">
+                    <h2 data-aos="flip-left" className="blog-title blog-link"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeLtVfLlupCaQQI7oXE1X7pd0teirT0HPvZH6RL6YI3IhUBMg/viewform" target="_blank">D32 & D32 Summer DCM</a></h2>
+                    <ul className="blog-paragraph">
+                        <li data-aos="fade-up">Wrapping up hygiene kit drive by creating hygiene kits</li>
+                        <li data-aos="fade-up">Water balloon and water gun fight at the end</li>
+                        <li data-aos="fade-up">1PM-3PM, Saturday July 29th @ Lake Meridian</li>
+                    </ul>
+                </section>
+
+                <section className="blog-section">
                     <h2 data-aos="zoom-in" className="blog-title blog-link"><a href="https://pnwkeyclub.org/shop/key-club-day-north-2023/" target="_blank">Key Club Days North</a></h2>
                     <ul className="blog-paragraph">
                         <li data-aos="fade-up">FREE Key Club Days kick-off event will be available to you the night prior to event with high-quality workshops</li>
