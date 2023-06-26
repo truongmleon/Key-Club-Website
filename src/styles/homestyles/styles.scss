@@ -1,6 +1,8 @@
 @import url("https://use.typekit.net/zmr3gei.css");
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant&display=swap');
+
 $font1: "myriad-pro", sans-serif;
-$font2: "myriad-pro-condensed", sans-serif;
+$font2: 'Ysabeau Infant', sans-serif;
 
 #title {
     font-family: $font1;
@@ -67,7 +69,7 @@ $font2: "myriad-pro-condensed", sans-serif;
 }
 
 .schools {
-    font-family: $font1;
+    font-family: $font2;
     font-size: 2vw;
     position: relative;
     left: -150px;
@@ -115,3 +117,11 @@ $font2: "myriad-pro-condensed", sans-serif;
     font-size: 4vw;
     width: 70vw;
 }
+
+.info-paragraph {
+    font-size: 1.5vw;
+    font-family: $font2;
+    position: relative;
+    left: 100px;
+    width: 70vw;
+} 
