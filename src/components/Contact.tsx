@@ -1,6 +1,10 @@
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const names: string[] = ["Anthony Luong", "Jason Mai", "Vicky Li", "Anissa Vichitthavong", "Emily Xu", "Leon Truong", "Meena Ha", "Ethan Nguyen", "Jessica Chhoy", "Jung Lee"];
 const positions: string[] = ["President", "Vice President", "Secretary", "Treasurer", "Bulletin Editor", "Webmaster", "Fundraising Head"];
-const emails: string[] = ["NA", "jasonmai52007@gmail.com", "vickyli354949@gmail.com", "anissavichitthavong@gmail.com", "emilyxu567@gmail.com", "leonkeyclub1@gmail.com", "meenaha0223@gmail.com", "ooowweeishethan@gmail.com", "chhoyjessica@gmail.com", "ljung509@gmail.com"]; 
+const emails: string[] = ["anthonythienluong@gmail.com", "jasonmai52007@gmail.com", "vickyli354949@gmail.com", "anissavichitthavong@gmail.com", "emilyxu567@gmail.com", "leonkeyclub1@gmail.com", "meenaha0223@gmail.com", "ooowweeishethan@gmail.com", "chhoyjessica@gmail.com", "ljung509@gmail.com"]; 
 const instagrams: string[] = ["https://www.instagram.com/antthienluong", "https://www.instagram.com/jason.mai07", "https://www.instagram.com/vickkyyy_", "https://www.instagram.com/anissavichitthavong", "https://www.instagram.com/em.xux", "https://www.instagram.com/leonmmtt/", "https://www.instagram.com/mha.vp", "https://www.instagram.com/viewethan", "https://www.instagram.com/chjessiica", "https://www.instagram.com/jung.1ee"];
 
 let officers: React.ReactElement<any, string | React.JSXElementConstructor<any>> | JSX.Element[] = [];
@@ -15,6 +19,10 @@ for (let i = positions.length; i < instagrams.length; i++) {
 }
 
 const Contact = () => {
+    useEffect(() => {
+        AOS.init();
+      }, [])
+      
     return (
         <div id="contact">
             <br/>
@@ -30,6 +38,10 @@ const Contact = () => {
                 </ul>
             </ul> 
 
+            <h2 data-aos="zoom-in-right" id="error-title">See an error with the site?</h2>
+            <p data-aos="zoom-in-right" id="error-paragraph">This is an open source project! Free feel to contribute to it by letting me (Leon Truong) know or by making a <a href="https://github.com/truongmleon/Key-Club-Website/tree/main" target="_blank">pull request</a>.</p>
+            <br />
+            <br />
         </div>
     )
 }
