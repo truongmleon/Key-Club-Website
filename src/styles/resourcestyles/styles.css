@@ -3,6 +3,7 @@
 #resources-page {
   position: absolute;
   width: 100%;
+  overflow-x: hidden;
 }
 
 #resources-title {
