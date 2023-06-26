@@ -2,7 +2,22 @@
 $font1: "myriad-pro", sans-serif;
 $font2: "myriad-pro-condensed", sans-serif;
 
+#resources-page {
+    position: absolute;
+    width: 100%;
+}
+
 #resources-title {
+    position: absolute;
     font-family: $font1;
+    text-align: center;
+    width: 100%;
+    margin-top: 100px;
+    font-size: 4vw;
+    text-shadow: 4px 4px #00000032;
+    user-select: none;
+}
+
+#note {
     
 }

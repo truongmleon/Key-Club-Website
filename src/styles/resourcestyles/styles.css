@@ -1,4 +1,18 @@
 @import url("https://use.typekit.net/zmr3gei.css");
+#resources-page {
+  position: absolute;
+  width: 100%;
+}
+
 #resources-title {
+  position: absolute;
   font-family: "myriad-pro", sans-serif;
+  text-align: center;
+  width: 100%;
+  margin-top: 100px;
+  font-size: 4vw;
+  text-shadow: 4px 4px rgba(0, 0, 0, 0.1960784314);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
 }/*# sourceMappingURL=styles.css.map */
