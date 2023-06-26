@@ -1,3 +1,5 @@
+import logo from "src/assets/logo.png";
+
 const load = (id: string) => {
   id !== "home" ? window.location.href = id.replace(/\s+/g, '') + ".html" : window.location.href = "/";
 }
@@ -14,7 +16,7 @@ const Navbar = () => {
   return (
     <div className="">
       <nav>
-        <img id="logo" src="src/assets/logo.png" alt="Key Club Logo" />
+        <img id="logo" src={logo} alt="Key Club Logo" />
         <ul id="nav-list">
         {htmlNav}
         </ul>
