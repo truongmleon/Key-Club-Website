@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <div className="">
       <nav>
-        <img id="logo" src="src/images/logo.png" alt="Key Club Logo" />
+        <img id="logo" src="logo.png" alt="Key Club Logo" />
         <ul id="nav-list">
         {htmlNav}
         </ul>
