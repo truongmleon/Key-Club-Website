@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import dcm from "/src/assets/summerdcm.png"
+import days from "/src/assets/kcdays.mp4"
 
 const Announcements = () => {
     useEffect(() => {
@@ -46,6 +48,7 @@ const Announcements = () => {
                         <li data-aos="fade-up">Water balloon and water gun fight at the end</li>
                         <li data-aos="fade-up">1PM-3PM, Saturday July 29th @ Lake Meridian</li>
                     </ul>
+                    <img data-aos="flip-up" className="blog-img" src={dcm} alt="summerdcm promo" />
                 </section>
 
                 <section className="blog-section">
@@ -56,6 +59,9 @@ const Announcements = () => {
                         <li data-aos="fade-up">Registration open until 08/25/2023 ($55)</li>
                         <li data-aos="fade-up">12PM-2PM, Saturday September 9th @ Wild Waves</li>
                     </ul>
+                    <video data-aos="flip-down" className="blog-img" width="400" controls>
+                    <source src={days} type="video/mp4"/>
+                    </video>
                 </section>
 
                 <section className="blog-section">
