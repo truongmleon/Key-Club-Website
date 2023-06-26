@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import dragon from "/src/assets/dragon.jpg";
 
 const names: string[] = ["Anthony Luong", "Jason Mai", "Vicky Li", "Anissa Vichitthavong", "Emily Xu", "Leon Truong", "Meena Ha", "Ethan Nguyen", "Jessica Chhoy", "Jung Lee"];
 const positions: string[] = ["President", "Vice President", "Secretary", "Treasurer", "Bulletin Editor", "Webmaster", "Fundraising Head"];
@@ -40,6 +41,10 @@ const Contact = () => {
 
             <h2 data-aos="zoom-in-right" id="error-title">See an error with the site?</h2>
             <p data-aos="zoom-in-right" id="error-paragraph">This is an open source project! Free feel to contribute to it by letting me (Leon Truong) know or by making a <a href="https://github.com/truongmleon/Key-Club-Website/tree/main" target="_blank">pull request</a>.</p>
+            <h2 data-aos="zoom-in-left" id="drawing-title">Anthony's Drawing for the D32 Mascot :0</h2>
+            <div className="flex">
+            <img data-aos="flip-right" id="dragon" src={dragon}></img>
+            </div>
             <br />
             <br />
         </div>
