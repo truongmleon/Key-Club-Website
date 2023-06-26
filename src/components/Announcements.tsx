@@ -11,7 +11,7 @@ const Announcements = () => {
 
     return (
         <div id="announcements-page">
-            <h1 id="announcements-title">View the Instagram!</h1>
+            <h1 id="announcements-title">View the Instagram!🫶</h1>
             <h2 id="disclaimer">May not work under KSD internet :(</h2>
 
             <div data-aos="fade-down" className="flex">
