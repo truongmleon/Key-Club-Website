@@ -10,12 +10,12 @@ const Resources = () => {
             </ul>
             <div id="btn-grid">
             <a href="" target="_blank"><button>Membership Form</button></a>
-            <button><a href="" target="_blank">Hour Submission Form</a></button>
-            <button><a href="src/files/service.pdf" target="_blank">Community Service Sheet</a></button>
+            <a href="" target="_blank"><button>Hour Submission Form</button></a>
+            <a href="src/files/service.pdf" target="_blank"><button>Community Service Sheet</button></a>
 
-            <button><a href="" target="_blank">Missed Meeting Form</a></button>
-            <button><a href="" target="_blank">Election Interest Slides</a></button>
-            <button><a href="" target="_blank">DCON Info</a></button>
+            <a href="" target="_blank"><button>Missed Meeting Form</button></a>
+            <a href="" target="_blank"><button>Election Interest Slides</button></a>
+            <a href="" target="_blank"><button>DCON Info</button></a>
             </div>
         </div>
     )
