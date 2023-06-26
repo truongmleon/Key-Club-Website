@@ -30,7 +30,7 @@ const Contact = () => {
             <h1 id="contact-title">Looking for someone?</h1>  
 
             <ul id="board-list">
-                <li id="board-title">Key Club Board :)) (2023-2024)✌️</li>
+                <li id="board-title">2023-2024 Key Club Board :))</li>
                 {officers}
                 <li>Mr. White (Club Advisor) --{">"} <i>theodore.white@kent.k12.wa.us</i></li>
                 <li>Club Committees:</li>
