@@ -43,7 +43,7 @@ const Contact = () => {
             <p data-aos="zoom-in-right" id="error-paragraph">This is an open source project! Free feel to contribute to it by letting me (Leon Truong) know or by making a <a href="https://github.com/truongmleon/Key-Club-Website/tree/main" target="_blank">pull request</a>.</p>
             <h2 data-aos="zoom-in-left" id="drawing-title">Anthony's Drawing for the D32 Mascot :0</h2>
             <div className="flex">
-            <img data-aos="flip-right" id="dragon" src={dragon}></img>
+            <img alt="drawing of d32 dragon" data-aos="flip-right" id="dragon" src={dragon}></img>
             </div>
             <br />
             <br />
