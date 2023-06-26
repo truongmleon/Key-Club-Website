@@ -40,7 +40,7 @@ const Announcements = () => {
                 </section>
 
                 <section className="blog-section">
-                    <h2 data-aos="zoom-in" className="blog-title blog-link"><a href="https://pnwkeyclub.org/shop/key-club-day-north-2023/">Key Club Days North</a></h2>
+                    <h2 data-aos="zoom-in" className="blog-title blog-link"><a href="https://pnwkeyclub.org/shop/key-club-day-north-2023/" target="_blank">Key Club Days North</a></h2>
                     <ul className="blog-paragraph">
                         <li data-aos="fade-up">FREE Key Club Days kick-off event will be available to you the night prior to event with high-quality workshops</li>
                         <li data-aos="fade-up">In-person participants receive: lunch, all-day admission (until 6 PM) to Wild Waves, team-building activities by LTG, + a service project</li>
@@ -56,6 +56,10 @@ const Announcements = () => {
                     </ul>
                 </section>
             </article>
+            <br />
+            <br />
+            <br />
+            <br />
             <br />
             <br />
             <br />

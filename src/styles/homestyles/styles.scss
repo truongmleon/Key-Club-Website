@@ -75,6 +75,11 @@ $font2: "myriad-pro-condensed", sans-serif;
     list-style-type: none;
 }
 
+.schools:before {
+    content: "⭐";
+    margin: 0 0.3em;
+}
+
 #info {
     font-family: $font1;
     font-size: 1vw;

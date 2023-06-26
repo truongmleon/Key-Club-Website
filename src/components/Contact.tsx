@@ -21,14 +21,15 @@ const Contact = () => {
             <h1 id="contact-title">Looking for someone?</h1>  
 
             <ul id="board-list">
-                <li id="board-title">Key Club Board</li>
+                <li id="board-title">Key Club Board :))</li>
                 {officers}
-                
+                <li>Mr. White (Club Advisor) --{">"} <i>theodore.white@kent.k12.wa.us</i></li>
                 <li>Club Committees:</li>
                 <ul>
                 {committee}
                 </ul>
             </ul> 
+
         </div>
     )
 }
