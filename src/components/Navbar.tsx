@@ -1,4 +1,4 @@
-import logo from "src/assets/logo.png";
+import logo from "/src/assets/logo.png";
 
 const load = (id: string) => {
   id !== "home" ? window.location.href = id.replace(/\s+/g, '') + ".html" : window.location.href = "/";
