@@ -1,3 +1,5 @@
+import servicepaper from "/src/files/service.pdf";
+
 const Resources = () => {
     return (
         <div id='resources-page'>
@@ -11,7 +13,7 @@ const Resources = () => {
             <div id="btn-grid">
             <a href="" target="_blank"><button>Membership Form</button></a>
             <a href="" target="_blank"><button>Hour Submission Form</button></a>
-            <a href="src/files/service.pdf" target="_blank"><button>Community Service Sheet</button></a>
+            <a href={servicepaper} target="_blank"><button>Community Service Sheet</button></a>
 
             <a href="" target="_blank"><button>Missed Meeting Form</button></a>
             <a href="" target="_blank"><button>Election Interest Slides</button></a>
