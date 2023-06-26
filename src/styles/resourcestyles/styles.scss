@@ -36,3 +36,38 @@ $font2: 'Ysabeau Infant', sans-serif;
     font-size: 1.5vw;
     width: 80%;
 }
+
+#btn-grid a {
+    width: 50%;
+    margin: 10px;
+    border: none;
+    background-color: #fff;
+    border: 1px solid #e2e2e2;
+    border-radius: 90px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+#btn-grid button {
+    font-family: $font2;
+    font-size: 2vw;
+    background-color: #fff;
+    border: 0;
+}
+
+#btn-grid a:hover {
+    transform: translateY(-7px);
+    box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 0.1);
+}
+
+#btn-grid {
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+}

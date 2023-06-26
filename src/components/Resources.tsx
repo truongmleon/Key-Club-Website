@@ -8,13 +8,11 @@ const Resources = () => {
                 <li>Members require 13-15 hours per year to stay as a member of Key Club</li>
                 <li>A meeting consists of slides with service opportunities, quick announcements, activities (in afternoon meetings), contact information, and more!</li>
             </ul>
-            <div className="flex">
-            <button><a href="" target="_blank">Membership Form</a></button>
+            <div id="btn-grid">
+            <a href="" target="_blank"><button>Membership Form</button></a>
             <button><a href="" target="_blank">Hour Submission Form</a></button>
             <button><a href="src/files/service.pdf" target="_blank">Community Service Sheet</a></button>
-            </div>
 
-            <div className="flex">
             <button><a href="" target="_blank">Missed Meeting Form</a></button>
             <button><a href="" target="_blank">Election Interest Slides</a></button>
             <button><a href="" target="_blank">DCON Info</a></button>
