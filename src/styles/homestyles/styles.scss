@@ -1,5 +1,5 @@
 @import url("https://use.typekit.net/zmr3gei.css");
-@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@400;600&display=swap');
 
 $font1: "myriad-pro", sans-serif;
 $font2: 'Ysabeau Infant', sans-serif;
@@ -134,4 +134,11 @@ $font2: 'Ysabeau Infant', sans-serif;
     left: 100px;
     background-color: #ffffff;
     box-shadow: rgba(121, 121, 125, 0.25) 2px 5px 10px 5px;
+}
+
+.emphasis {
+    width: 80vw;
+    font-size: 1.5vw;
+    font-family: $font2;
+    text-align: center;
 }
