@@ -1,3 +1,7 @@
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 //Resources for buttons
 import servicepaper from "/src/files/service.pdf";
 
@@ -13,10 +17,14 @@ const slides = [
 let meetingLinks: React.ReactElement<any, string | React.JSXElementConstructor<any>> | JSX.Element[] = [];
 
 for (let i = 0; i < slides.length; i++) {
-    meetingLinks.push(<li><a href={slides[i]} target="_blank">{dates[i]}</a></li>);
+    meetingLinks.push(<li data-aos="zoom-in-down"><a href={slides[i]} target="_blank">{dates[i]}</a></li>);
 }
 
 const Resources = () => {
+    useEffect(() => {
+        AOS.init();
+      }, [])
+
     return (
         <div id='resources-page'>
             <h1 id="resources-title">Looking for something?</h1>
@@ -39,6 +47,10 @@ const Resources = () => {
             <ul id="links">
                 {meetingLinks}
             </ul>
+            <h3 data-aos="zoom-in-down" id="values">~Caring–Our Way of Life</h3>
+            <br />
+            <br />
+            <br />
         </div>
     )
 }

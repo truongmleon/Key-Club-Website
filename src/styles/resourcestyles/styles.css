@@ -79,4 +79,10 @@
   left: 100px;
   font-family: "myriad-pro", sans-serif;
   font-size: 1.7vw;
+}
+
+#values {
+  font-family: "myriad-pro", sans-serif;
+  font-size: 2vw;
+  text-align: center;
 }/*# sourceMappingURL=styles.css.map */
