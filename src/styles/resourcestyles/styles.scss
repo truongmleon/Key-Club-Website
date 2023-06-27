@@ -21,7 +21,7 @@ $font2: 'Ysabeau Infant', sans-serif;
     user-select: none;
 }
 
-#note {
+.note {
     margin-top: 200px;
     position: relative;
     left: 100px;
@@ -70,4 +70,15 @@ $font2: 'Ysabeau Infant', sans-serif;
     align-items: center;
     justify-items: center;
     grid-template-columns: 1fr 1fr;
+}
+
+#slides {
+    margin-top: 60px;
+}
+
+#links li {
+    position: relative;
+    left: 100px;
+    font-family: $font1;
+    font-size: 1.7vw;
 }

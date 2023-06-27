@@ -19,7 +19,7 @@
           user-select: none;
 }
 
-#note {
+.note {
   margin-top: 200px;
   position: relative;
   left: 100px;
@@ -68,4 +68,15 @@
   align-items: center;
   justify-items: center;
   grid-template-columns: 1fr 1fr;
+}
+
+#slides {
+  margin-top: 60px;
+}
+
+#links li {
+  position: relative;
+  left: 100px;
+  font-family: "myriad-pro", sans-serif;
+  font-size: 1.7vw;
 }/*# sourceMappingURL=styles.css.map */
