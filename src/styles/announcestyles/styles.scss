@@ -86,10 +86,16 @@ $font2: 'Bacasime Antique', serif;
     box-shadow: rgba(119, 119, 130, 0.25) 2px 5px 20px 5px;
 }
 
-@media screen and (max-width: 1230px) {
+@media (hover: none) {
+    #remind-title:hover {
+
+    } 
+}
+
+@media screen and (max-width: 1230px)  {
     #remind-title {
         margin-top: 550px;
-    }
+    }   
 
     .instagram-media {
         width: 40% !important;
