@@ -88,4 +88,10 @@
   font-family: "myriad-pro", sans-serif;
   font-size: 2vw;
   text-align: center;
+}
+
+@media screen and (max-width: 1230px) {
+  #btn-grid a {
+    width: 55%;
+  }
 }/*# sourceMappingURL=styles.css.map */

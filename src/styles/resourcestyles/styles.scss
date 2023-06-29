@@ -91,3 +91,9 @@ $font2: 'Ysabeau Infant', sans-serif;
     font-size: 2vw;
     text-align: center;
 }
+
+@media screen and (max-width: 1230px)  {
+    #btn-grid a {
+        width: 55%;
+    }
+}
