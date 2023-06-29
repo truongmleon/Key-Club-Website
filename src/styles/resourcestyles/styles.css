@@ -36,6 +36,7 @@
 }
 
 #btn-grid a {
+  color: #000;
   width: 50%;
   margin: 10px;
   border: none;
@@ -51,6 +52,8 @@
 }
 
 #btn-grid button {
+  color: #000;
+  border-radius: 90px;
   font-family: "Ysabeau Infant", sans-serif;
   font-size: 2vw;
   background-color: #fff;

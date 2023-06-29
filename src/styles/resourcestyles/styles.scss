@@ -38,6 +38,7 @@ $font2: 'Ysabeau Infant', sans-serif;
 }
 
 #btn-grid a {
+    color: #000;
     width: 50%;
     margin: 10px;
     border: none;
@@ -53,6 +54,8 @@ $font2: 'Ysabeau Infant', sans-serif;
 }
 
 #btn-grid button {
+    color: #000;
+    border-radius: 90px;
     font-family: $font2;
     font-size: 2vw;
     background-color: #fff;
