@@ -19,8 +19,7 @@ const Announcements = () => {
             </div>
             <br />
             <br />
-
-            <article>
+            <article id="blog">
                 <section className="blog-section">
                     <h2 data-aos="zoom-in" className="blog-title">District Project for 2023-2024</h2>
                    
