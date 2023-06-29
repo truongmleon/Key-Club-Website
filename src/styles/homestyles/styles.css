@@ -146,4 +146,13 @@
   font-size: 1.5vw;
   font-family: "Ysabeau Infant", sans-serif;
   text-align: center;
+}
+
+@media screen and (max-width: 1130px) {
+  #images {
+    display: none;
+  }
+  #schools {
+    margin-top: 90px;
+  }
 }/*# sourceMappingURL=styles.css.map */

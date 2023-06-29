@@ -142,3 +142,13 @@ $font2: 'Ysabeau Infant', sans-serif;
     font-family: $font2;
     text-align: center;
 }
+
+@media screen and (max-width: 1130px) {
+    #images {
+        display: none;
+    }
+
+    #schools {
+        margin-top: 90px;
+    }
+}
