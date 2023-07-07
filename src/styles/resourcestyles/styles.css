@@ -94,4 +94,9 @@
   #btn-grid a {
     width: 55%;
   }
+}
+@media screen and (max-width: 1070px) {
+  #note-list {
+    font-size: 1.7vw;
+  }
 }/*# sourceMappingURL=styles.css.map */

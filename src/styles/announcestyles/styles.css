@@ -98,4 +98,9 @@
   #blog {
     margin-top: 550px;
   }
+}
+@media screen and (max-width: 1070px) {
+  .blog-paragraph {
+    font-size: 1.7vw;
+  }
 }/*# sourceMappingURL=styles.css.map */

@@ -45,4 +45,10 @@ nav {
 
 .nav:hover {
   text-shadow: 3px 3px rgba(0, 0, 0, 0.1960784314);
+}
+
+@media screen and (max-width: 1070px) {
+  .nav {
+    font-size: 2.2vw;
+  }
 }/*# sourceMappingURL=styles.css.map */
