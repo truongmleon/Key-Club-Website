@@ -65,4 +65,10 @@
 
 #drawing-title {
   margin-top: 0px;
+}
+
+@media screen and (max-width: 970px) {
+  #board-list, #error-paragraph {
+    font-size: 2vw;
+  }
 }/*# sourceMappingURL=styles.css.map */

@@ -103,3 +103,9 @@ $font2: 'Ysabeau Infant', sans-serif;
         font-size: 1.7vw;
     }
 }
+
+@media screen and (max-width: 970px) {
+    #note-list {
+        font-size: 2vw;
+    }
+}
