@@ -114,4 +114,10 @@
   .blog-img {
     width: 300px;
   }
+  #announcements-title {
+    font-size: 5vw;
+  }
+  #disclaimer {
+    font-size: 4vw;
+  }
 }/*# sourceMappingURL=styles.css.map */
