@@ -74,4 +74,9 @@
   #contact-title {
     font-size: 5vw;
   }
+}
+@media screen and (max-width: 870px) {
+  #board-list, #error-paragraph {
+    font-size: 3vw;
+  }
 }/*# sourceMappingURL=styles.css.map */

@@ -113,6 +113,12 @@ nav {
     }
 }
 
+@media screen and (max-width: 870px) {
+    .nav {
+        font-size: 2.8vw;
+    }
+}
+
 @media screen and (max-width: 768px) {
     #hamburger {
         display: block;
