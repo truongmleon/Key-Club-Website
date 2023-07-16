@@ -14,6 +14,10 @@ $font2: 'Ysabeau Infant', sans-serif;
     text-shadow: 4px 4px #00000032;
 }
 
+#board-list {
+    width: 80%;
+}
+
 #board-list li {
     font-family: $font2;
     font-size: 1.7vw;
