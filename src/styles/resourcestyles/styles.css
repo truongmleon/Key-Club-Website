@@ -118,4 +118,7 @@
   #btn-grid a {
     width: 65%;
   }
+  .note, #values {
+    font-size: 3vw;
+  }
 }/*# sourceMappingURL=styles.css.map */
