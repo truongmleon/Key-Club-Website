@@ -87,6 +87,10 @@ $font2: 'Bacasime Antique', serif;
 }
 
 @media screen and (max-width: 1230px)  {
+    .blog-paragraph {
+        font-size: 2vw;
+    }
+
     #remind-title {
         display: none;
     } 
