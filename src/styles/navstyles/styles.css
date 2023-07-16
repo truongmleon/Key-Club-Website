@@ -52,16 +52,32 @@ nav {
   z-index: 2;
   display: flex;
   float: right;
+  transition: 0.3s;
+  margin-top: 3px;
+  height: 100%;
 }
 
 .bar {
-  display: block;
+  display: none;
   width: 35px;
   height: 4px;
   background-color: white;
   z-index: 10;
   margin: 9px 40px 9px 0px;
   border-radius: 4px;
+  transition: 0.3s;
+}
+
+#hamburger.active .bar:nth-child(1) {
+  transform: translateY(13px) rotate(45deg);
+}
+
+#hamburger.active .bar:nth-child(3) {
+  transform: translateY(-13px) rotate(-45deg);
+}
+
+#hamburger.active .bar:nth-child(2) {
+  opacity: 0;
 }
 
 @media screen and (max-width: 1130px) {
@@ -84,7 +100,13 @@ nav {
     display: block;
     margin: 11px;
   }
+  .bar {
+    display: block;
+  }
   #nav-list {
     display: none;
+  }
+  nav {
+    height: 70px;
   }
 }/*# sourceMappingURL=styles.css.map */

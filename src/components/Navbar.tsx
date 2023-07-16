@@ -1,5 +1,7 @@
 import logo from "/src/assets/logo.png";
 
+let active:boolean = false;
+
 const load = (id: string) => {
   id !== "home" ? window.location.href = id.replace(/\s+/g, '') + ".html" : window.location.href = "/";
 }
@@ -12,6 +14,16 @@ for (let i = 0; i < navRows.length; i++) {
   htmlNav.push(<li><h1 className="nav" onClick={() => load(id)} >{navRows[i]}</h1></li>);
 }
 
+const hamburgerMenu = () => {
+  if (active) {
+    document.getElementById("hamburger")?.classList.add("active");
+    active = !active;
+  } else {
+    document.getElementById("hamburger")?.classList.remove("active");
+    active = !active;
+  }
+}
+
 const Navbar = () => {
   return (
     <div className="">
@@ -20,7 +32,7 @@ const Navbar = () => {
         <ul id="nav-list">
         {htmlNav}
         </ul>
-        <div id="hamburger">
+        <div id="hamburger" onClick={() => hamburgerMenu()}>
         <span className="bar"></span>
         <span className="bar"></span>
         <span className="bar"></span>
