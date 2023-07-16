@@ -177,8 +177,9 @@ $font2: 'Ysabeau Infant', sans-serif;
     }
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 840px) {
     #info {
         height: 20vh;
+        padding: 10px;
     }
 }

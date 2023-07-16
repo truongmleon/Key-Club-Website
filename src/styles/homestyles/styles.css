@@ -175,8 +175,9 @@
     font-size: 2vw;
   }
 }
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 840px) {
   #info {
     height: 20vh;
+    padding: 10px;
   }
 }/*# sourceMappingURL=styles.css.map */
