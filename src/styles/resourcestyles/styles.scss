@@ -99,7 +99,7 @@ $font2: 'Ysabeau Infant', sans-serif;
 }
 
 @media screen and (max-width: 1070px) {
-    #note-list {
+    #note-list, #links li {
         font-size: 2vw;
     }
 
@@ -109,7 +109,7 @@ $font2: 'Ysabeau Infant', sans-serif;
 }
 
 @media screen and (max-width: 970px) {
-    #note-list, #btn-grid button {
+    #note-list, #btn-grid button, #links li {
         font-size: 2.2vw;
     }
 
@@ -119,7 +119,7 @@ $font2: 'Ysabeau Infant', sans-serif;
 }
 
 @media screen and (max-width: 870px) {
-    #note-list, #btn-grid button {
+    #note-list, #btn-grid button, #links li {
         font-size: 2.5vw;
     }
 
