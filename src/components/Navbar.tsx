@@ -20,6 +20,11 @@ const Navbar = () => {
         <ul id="nav-list">
         {htmlNav}
         </ul>
+        <div id="hamburger">
+        <span className="bar"></span>
+        <span className="bar"></span>
+        <span className="bar"></span>
+        </div>
       </nav>
     </div>
   )
