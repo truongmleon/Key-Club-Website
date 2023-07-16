@@ -15,13 +15,10 @@ for (let i = 0; i < navRows.length; i++) {
 }
 
 const hamburgerMenu = () => {
-  if (active) {
-    document.getElementById("hamburger")?.classList.add("active");
-    active = !active;
-  } else {
-    document.getElementById("hamburger")?.classList.remove("active");
-    active = !active;
-  }
+  active ? document.getElementById("hamburger")?.classList.add("active") : document.getElementById("hamburger")?.classList.remove("active");
+  active ? document.getElementById("menu")!.style.display = "block" : document.getElementById("menu")!.style.display = "none";
+  active = !active;
+
 }
 
 const Navbar = () => {
@@ -37,6 +34,9 @@ const Navbar = () => {
         <span className="bar"></span>
         <span className="bar"></span>
         </div>
+        <div id="menu">
+      {htmlNav}
+      </div>
       </nav>
     </div>
   )
