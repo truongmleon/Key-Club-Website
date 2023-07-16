@@ -127,7 +127,7 @@
   font-size: 1.5vw;
   font-family: "Ysabeau Infant", sans-serif;
   position: relative;
-  left: 100px;
+  left: 80px;
   width: 70vw;
 }
 
@@ -136,7 +136,7 @@
   padding: 10px;
   width: 80vw;
   position: relative;
-  left: 100px;
+  left: 80px;
   background-color: #ffffff;
   box-shadow: rgba(121, 121, 125, 0.25) 2px 5px 10px 5px;
 }
@@ -175,7 +175,7 @@
     font-size: 2vw;
   }
 }
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 440px) {
   #info {
     height: 20vh;
   }
