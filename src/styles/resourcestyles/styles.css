@@ -97,12 +97,12 @@
 }
 @media screen and (max-width: 1070px) {
   #note-list {
-    font-size: 1.7vw;
+    font-size: 2vw;
   }
 }
 @media screen and (max-width: 970px) {
   #note-list, #btn-grid button {
-    font-size: 2vw;
+    font-size: 2.2vw;
   }
   #resources-title {
     font-size: 5vw;
@@ -116,6 +116,6 @@
     font-size: 2.3vw;
   }
   #btn-grid a {
-    width: 60%;
+    width: 65%;
   }
 }/*# sourceMappingURL=styles.css.map */
