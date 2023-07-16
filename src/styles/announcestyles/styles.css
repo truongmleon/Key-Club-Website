@@ -73,7 +73,7 @@
 .blog-title {
   font-family: "Bacasime Antique", serif;
   font-size: 3vw;
-  border-bottom: double 12px #000;
+  border-bottom: double 9px #000;
   width: 90%;
 }
 
@@ -102,6 +102,9 @@
 @media screen and (max-width: 1070px) {
   .blog-paragraph {
     font-size: 1.7vw;
+  }
+  #instagram {
+    top: 280px;
   }
 }
 @media screen and (max-width: 970px) {
