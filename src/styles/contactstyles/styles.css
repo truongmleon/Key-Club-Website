@@ -68,15 +68,21 @@
 }
 
 @media screen and (max-width: 970px) {
-  #board-list, #error-paragraph {
+  #error-paragraph {
     font-size: 2vw;
+  }
+  #board-list li {
+    font-size: 2.2vw;
   }
   #contact-title {
     font-size: 5vw;
   }
 }
 @media screen and (max-width: 870px) {
-  #board-list, #error-paragraph {
+  #error-paragraph {
     font-size: 3vw;
+  }
+  #board-list li {
+    font-size: 2.5vw;
   }
 }/*# sourceMappingURL=styles.css.map */
