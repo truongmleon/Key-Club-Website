@@ -174,4 +174,9 @@
   .emphasis, .info-paragraph {
     font-size: 2vw;
   }
+}
+@media screen and (max-width: 840px) {
+  #info {
+    width: 25vw;
+  }
 }/*# sourceMappingURL=styles.css.map */

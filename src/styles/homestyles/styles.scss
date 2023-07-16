@@ -176,3 +176,9 @@ $font2: 'Ysabeau Infant', sans-serif;
         font-size: 2vw;
     }
 }
+
+@media screen and (max-width: 840px) {
+    #info {
+        width: 25vw;
+    }
+}
