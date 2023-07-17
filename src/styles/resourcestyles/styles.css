@@ -121,4 +121,9 @@
   .note, #values {
     font-size: 3vw;
   }
+}
+@media screen and (max-width: 680px) {
+  #note-list, #btn-grid button, #links li {
+    font-size: 2.7vw;
+  }
 }/*# sourceMappingURL=styles.css.map */

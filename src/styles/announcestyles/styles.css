@@ -130,8 +130,15 @@
 @media screen and (max-width: 680px) {
   #instagram {
     display: grid;
+    top: 240px;
   }
   #blog {
-    margin-top: 850px;
+    margin-top: 800px;
+  }
+  .blog-paragraph {
+    font-size: 2.8vw;
+  }
+  .blog-title {
+    font-size: 3.7vw;
   }
 }/*# sourceMappingURL=styles.css.map */
