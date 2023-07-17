@@ -171,11 +171,11 @@ nav {
 }
 
 @media screen and (max-width: 500px) {
-    #menu {
-        height: 160px;
+    .nav {
+        font-size: 4vw;
     }
 
-    .nav {
-        font-size: 3.4vw;
+    #logo {
+        width: 20vw;
     }
 }

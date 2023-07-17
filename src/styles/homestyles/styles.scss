@@ -301,4 +301,27 @@ $font2: 'Ysabeau Infant', sans-serif;
     .emphasis, .info-paragraph {
         font-size: 3.6vw;
     }
+
+    #sign-up {
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    #Layer_1 {
+        width: 250px;
+    }
+
+    .schools {
+        font-size: 4vw;
+        left: -50px;
+    }
+
+    #schools, #about {
+        font-size: 5.05vw;
+    }
+
+    .emphasis, .info-paragraph {
+        font-size: 4vw;
+    }
 }

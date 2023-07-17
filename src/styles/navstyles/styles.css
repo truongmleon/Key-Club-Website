@@ -157,10 +157,10 @@ nav {
   }
 }
 @media screen and (max-width: 500px) {
-  #menu {
-    height: 160px;
-  }
   .nav {
-    font-size: 3.4vw;
+    font-size: 4vw;
+  }
+  #logo {
+    width: 20vw;
   }
 }/*# sourceMappingURL=styles.css.map */

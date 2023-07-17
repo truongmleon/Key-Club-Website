@@ -180,4 +180,18 @@
   #announcements-title {
     font-size: 7vw;
   }
+}
+@media screen and (max-width: 390px) {
+  .blog-paragraph {
+    font-size: 4vw;
+  }
+  #disclaimer {
+    font-size: 6vw;
+  }
+  .blog-title {
+    font-size: 6vw;
+  }
+  #announcements-title {
+    font-size: 8vw;
+  }
 }/*# sourceMappingURL=styles.css.map */

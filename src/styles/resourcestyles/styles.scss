@@ -157,18 +157,19 @@ $font2: 'Ysabeau Infant', sans-serif;
 
     .note {
         margin-top: 160px;
+        left: 20px;
     }
 
     #note-list {
         left: 10px;
     }
 
-    .note {
-        left: 20px;
-    }
-
     #links li {
         left: 10px;
+    }
+
+    .note, #values {
+        font-size: 4vw;
     }
 }
 
@@ -193,5 +194,23 @@ $font2: 'Ysabeau Infant', sans-serif;
 
     #resources-title {
         font-size: 7vw;
+    }
+
+    .note, #values {
+        font-size: 4.5vw;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    #note-list, #btn-grid button, #links li {
+        font-size: 3.8vw;
+    }
+
+    .note, #values {
+        font-size: 5vw;
+    }
+
+    #resources-title {
+        font-size: 8vw;
     }
 }
