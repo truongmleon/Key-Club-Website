@@ -248,6 +248,9 @@
   #sign-up {
     left: 40px;
   }
+  #schools {
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.1960784314) !important;
+  }
 }
 @media screen and (max-width: 500px) {
   .schools {
@@ -288,7 +291,7 @@
     left: -50px;
   }
   #schools, #about {
-    font-size: 5.05vw;
+    font-size: 6vw;
   }
   .emphasis, .info-paragraph {
     font-size: 4vw;

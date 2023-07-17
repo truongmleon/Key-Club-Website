@@ -163,4 +163,20 @@ nav {
   #logo {
     width: 20vw;
   }
+}
+@media screen and (max-width: 440px) {
+  .nav {
+    font-size: 4vw;
+  }
+  #logo {
+    width: 24vw;
+  }
+}
+@media screen and (max-width: 320px) {
+  .nav {
+    font-size: 4vw;
+  }
+  #logo {
+    width: 26vw;
+  }
 }/*# sourceMappingURL=styles.css.map */
