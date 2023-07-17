@@ -96,6 +96,11 @@
     font-size: 4.2vw !important;
   }
 }
+@media screen and (max-width: 680px) {
+  #contact-title {
+    font-size: 6vw;
+  }
+}
 @media screen and (max-width: 560px) {
   #error-paragraph {
     font-size: 3vw;

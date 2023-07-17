@@ -129,6 +129,9 @@
   .note {
     margin-top: 180px;
   }
+  #resources-title {
+    font-size: 6vw;
+  }
 }
 @media screen and (max-width: 570px) {
   #note-list, #btn-grid button, #links li {
