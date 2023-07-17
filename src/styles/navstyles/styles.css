@@ -58,7 +58,7 @@ nav {
   margin-top: 3px;
   height: 100%;
   width: 35px;
-  right: 40px;
+  right: 60px;
 }
 
 .bar {
@@ -112,6 +112,9 @@ nav {
   .nav {
     font-size: 2.4vw;
   }
+  #logo {
+    width: 13vw;
+  }
 }
 @media screen and (max-width: 870px) {
   .nav {
@@ -132,6 +135,9 @@ nav {
   nav {
     height: 70px;
     width: 100%;
+  }
+  #logo {
+    width: 15vw;
   }
 }
 @media screen and (max-width: 680px) {
