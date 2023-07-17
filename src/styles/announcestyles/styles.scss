@@ -135,3 +135,13 @@ $font2: 'Bacasime Antique', serif;
         font-size: 4vw;
     }
 }
+
+@media screen and (max-width: 680px)  {
+    #instagram {
+        display: grid;
+    }
+
+    #blog {
+        margin-top: 850px;
+    }
+}

@@ -126,4 +126,12 @@
   #disclaimer {
     font-size: 4vw;
   }
+}
+@media screen and (max-width: 680px) {
+  #instagram {
+    display: grid;
+  }
+  #blog {
+    margin-top: 850px;
+  }
 }/*# sourceMappingURL=styles.css.map */
