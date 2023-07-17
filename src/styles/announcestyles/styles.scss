@@ -203,6 +203,10 @@ $font2: 'Bacasime Antique', serif;
     #announcements-title {
         font-size: 7vw;
     }
+
+    #announcements-title, #disclaimer {
+        text-shadow: 2px 2px #00000032;
+    }
 }
 
 @media screen and (max-width: 390px)  {
