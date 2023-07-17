@@ -155,3 +155,9 @@ nav {
         height: 200px;
     }
 }
+
+@media screen and (max-width: 560px) {
+    #menu {
+        height: 180px;
+    }
+}

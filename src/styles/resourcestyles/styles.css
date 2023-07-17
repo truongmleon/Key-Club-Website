@@ -126,4 +126,15 @@
   #note-list, #btn-grid button, #links li {
     font-size: 2.7vw;
   }
+  .note {
+    margin-top: 180px;
+  }
+}
+@media screen and (max-width: 570px) {
+  #note-list, #btn-grid button, #links li {
+    font-size: 2.8vw;
+  }
+  .note {
+    margin-top: 160px;
+  }
 }/*# sourceMappingURL=styles.css.map */

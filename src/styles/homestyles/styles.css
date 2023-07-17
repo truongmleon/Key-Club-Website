@@ -200,7 +200,7 @@
 }
 @media screen and (max-width: 680px) {
   #Layer_1 {
-    width: 550px;
+    width: 450px;
   }
   #sign-up {
     width: 75vw;
@@ -214,5 +214,18 @@
   }
   .emphasis, .info-paragraph {
     font-size: 2.8vw;
+  }
+}
+@media screen and (max-width: 560px) {
+  #info {
+    padding: 10px;
+    height: 150px;
+    font-size: 1.2vw;
+  }
+  .schools {
+    left: 0px;
+  }
+  .emphasis, .info-paragraph {
+    font-size: 3vw;
   }
 }/*# sourceMappingURL=styles.css.map */
