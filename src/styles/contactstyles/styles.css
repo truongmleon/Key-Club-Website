@@ -81,6 +81,9 @@
   #contact-title {
     font-size: 5vw;
   }
+  #board-title, #error-title {
+    font-size: 3.5vw !important;
+  }
 }
 @media screen and (max-width: 870px) {
   #error-paragraph {
@@ -88,5 +91,8 @@
   }
   #board-list li {
     font-size: 2.5vw;
+  }
+  #board-title, #error-title {
+    font-size: 4.2vw !important;
   }
 }/*# sourceMappingURL=styles.css.map */
