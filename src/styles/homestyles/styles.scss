@@ -234,10 +234,14 @@ $font2: 'Ysabeau Infant', sans-serif;
     }
 
     .schools {
-        left: 0px;
+        left: -50px;
     }
 
     .emphasis, .info-paragraph {
         font-size: 3vw;
+    }
+
+    #info {
+        display: none;
     }
 }

@@ -223,9 +223,12 @@
     font-size: 1.2vw;
   }
   .schools {
-    left: 0px;
+    left: -50px;
   }
   .emphasis, .info-paragraph {
     font-size: 3vw;
+  }
+  #info {
+    display: none;
   }
 }/*# sourceMappingURL=styles.css.map */
