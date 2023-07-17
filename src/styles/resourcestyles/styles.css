@@ -132,6 +132,9 @@
   #resources-title {
     font-size: 6vw;
   }
+  .note, #values {
+    font-size: 3.5vw;
+  }
 }
 @media screen and (max-width: 570px) {
   #note-list, #btn-grid button, #links li {
@@ -139,5 +142,22 @@
   }
   .note {
     margin-top: 160px;
+  }
+  #note-list {
+    left: 10px;
+  }
+  .note {
+    left: 20px;
+  }
+  #links li {
+    left: 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #note-list, #btn-grid button, #links li {
+    font-size: 3vw;
+  }
+  #btn-grid a {
+    width: 75%;
   }
 }/*# sourceMappingURL=styles.css.map */

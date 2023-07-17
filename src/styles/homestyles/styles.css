@@ -215,6 +215,12 @@
   .emphasis, .info-paragraph {
     font-size: 2.8vw;
   }
+  #body-info {
+    left: 20px;
+  }
+  #schools, #about {
+    left: 80px;
+  }
 }
 @media screen and (max-width: 560px) {
   #info {
@@ -224,11 +230,18 @@
   }
   .schools {
     left: -50px;
+    font-size: 2.8vw;
   }
   .emphasis, .info-paragraph {
     font-size: 3vw;
   }
   #info {
     display: none;
+  }
+  #Layer_1 {
+    width: 350px;
+  }
+  #schools {
+    margin-top: 50px;
   }
 }/*# sourceMappingURL=styles.css.map */

@@ -28,7 +28,7 @@
   font-family: "Ysabeau Infant", sans-serif;
   list-style-type: none;
   font-size: 3vw !important;
-  left: 60px !important;
+  left: 60px;
   border-bottom: #000 double 9px;
   width: 80%;
 }
@@ -95,10 +95,19 @@
   #board-title, #error-title, #drawing-title {
     font-size: 4.2vw !important;
   }
+  #board-title {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 680px) {
   #contact-title {
     font-size: 6vw;
+  }
+  #board-title {
+    left: 30px !important;
+  }
+  #board-list li {
+    left: 80px;
   }
 }
 @media screen and (max-width: 560px) {
@@ -106,7 +115,7 @@
     font-size: 3vw;
   }
   #board-list li {
-    left: 80px;
+    left: 60px;
     font-size: 2.8vw;
   }
   #board-title, #error-title, #drawing-title {

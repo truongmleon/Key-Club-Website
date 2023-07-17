@@ -224,6 +224,14 @@ $font2: 'Ysabeau Infant', sans-serif;
     .emphasis, .info-paragraph {
         font-size: 2.8vw;
     }
+
+    #body-info {
+        left: 20px;
+    }
+
+    #schools, #about {
+        left: 80px;
+    }
 }
 
 @media screen and (max-width: 560px) {
@@ -235,6 +243,7 @@ $font2: 'Ysabeau Infant', sans-serif;
 
     .schools {
         left: -50px;
+        font-size: 2.8vw;
     }
 
     .emphasis, .info-paragraph {
@@ -243,5 +252,13 @@ $font2: 'Ysabeau Infant', sans-serif;
 
     #info {
         display: none;
+    }
+
+    #Layer_1 {
+        width: 350px;
+    }
+
+    #schools {
+        margin-top: 50px;
     }
 }

@@ -152,4 +152,9 @@ nav {
   #logo {
     width: 17vw;
   }
+}
+@media screen and (max-width: 500px) {
+  #menu {
+    height: 150px;
+  }
 }/*# sourceMappingURL=styles.css.map */
