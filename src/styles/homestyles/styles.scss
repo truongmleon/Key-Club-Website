@@ -136,11 +136,21 @@ $font2: 'Ysabeau Infant', sans-serif;
     box-shadow: rgba(121, 121, 125, 0.25) 2px 5px 10px 5px;
 }
 
+#sign-up li {
+    position: relative;
+    left: 30px;
+}
+
 .emphasis {
     width: 80vw;
     font-size: 1.5vw;
     font-family: $font2;
     text-align: center;
+}
+
+#body-info {
+    position: relative;
+    left: 50px;
 }
 
 @media screen and (max-width: 1130px) {
