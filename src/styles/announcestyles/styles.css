@@ -149,4 +149,15 @@
   .blog-paragraph {
     font-size: 3vw;
   }
+  .blog-title {
+    font-size: 4.5vw;
+  }
+}
+@media screen and (max-width: 500px) {
+  .blog-paragraph {
+    font-size: 3.2vw;
+  }
+  #disclaimer {
+    font-size: 4.5vw;
+  }
 }/*# sourceMappingURL=styles.css.map */

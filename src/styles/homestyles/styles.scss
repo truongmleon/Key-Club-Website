@@ -235,12 +235,6 @@ $font2: 'Ysabeau Infant', sans-serif;
 }
 
 @media screen and (max-width: 560px) {
-    #info {
-        padding: 10px;
-        height: 150px;
-        font-size: 1.2vw;
-    }
-
     .schools {
         left: -50px;
         font-size: 2.8vw;
@@ -260,5 +254,37 @@ $font2: 'Ysabeau Infant', sans-serif;
 
     #schools {
         margin-top: 50px;
+    }
+
+    #about {
+        width: 80%;
+    }
+
+    #schools, #about {
+        font-size: 4.5vw;
+    }
+
+    #sign-up {
+        left: 40px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .schools {
+        font-size: 3.2vw;
+        left: -80px;
+    }
+
+    #schools, #about {
+        font-size: 5vw;
+        left: 40px;
+    }
+
+    .emphasis, .info-paragraph {
+        font-size: 3.3vw;
+    }
+
+    #body-info {
+        left: -20px;
     }
 }
