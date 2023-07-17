@@ -174,10 +174,16 @@
   .emphasis, .info-paragraph {
     font-size: 2.3vw;
   }
+  .schools {
+    left: -60px;
+  }
 }
 @media screen and (max-width: 840px) {
   #info {
     padding: 10px;
     height: 150px;
+  }
+  .schools {
+    left: -40px;
   }
 }/*# sourceMappingURL=styles.css.map */
