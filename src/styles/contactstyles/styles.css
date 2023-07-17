@@ -132,4 +132,25 @@
   #board-title, #error-title, #drawing-title {
     font-size: 4.5vw !important;
   }
+}
+@media screen and (max-width: 440px) {
+  #error-paragraph {
+    font-size: 3.6vw;
+  }
+  #board-list li {
+    font-size: 3.4vw;
+    left: 50px;
+  }
+  #board-title, #error-title, #drawing-title {
+    font-size: 5vw !important;
+  }
+  #board-title {
+    left: 10px !important;
+  }
+  #error-title {
+    left: 40px;
+  }
+  #contact-title {
+    font-size: 7vw;
+  }
 }/*# sourceMappingURL=styles.css.map */

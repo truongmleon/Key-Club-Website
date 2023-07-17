@@ -264,4 +264,15 @@
   #body-info {
     left: -20px;
   }
+}
+@media screen and (max-width: 440px) {
+  .schools {
+    font-size: 3.5vw;
+  }
+  #schools, #about {
+    font-size: 5vw;
+  }
+  .emphasis, .info-paragraph {
+    font-size: 3.6vw;
+  }
 }/*# sourceMappingURL=styles.css.map */

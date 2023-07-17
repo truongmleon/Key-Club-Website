@@ -174,10 +174,24 @@ $font2: 'Ysabeau Infant', sans-serif;
 
 @media screen and (max-width: 500px) {
     #note-list, #btn-grid button, #links li {
-        font-size: 3vw;
+        font-size: 3.2vw;
     }
 
     #btn-grid a {
         width: 75%;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    #note-list, #btn-grid button, #links li {
+        font-size: 3.4vw;
+    }
+
+    #btn-grid a {
+        width: 85%;
+    }
+
+    #resources-title {
+        font-size: 7vw;
     }
 }

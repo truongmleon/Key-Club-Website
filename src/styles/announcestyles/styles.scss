@@ -157,6 +157,10 @@ $font2: 'Bacasime Antique', serif;
     #announcements-title {
         font-size: 6vw;
     }
+
+    .blog-section {
+        left: 60px;
+    }
 }
 
 @media screen and (max-width: 560px)  {
@@ -176,5 +180,27 @@ $font2: 'Bacasime Antique', serif;
 
     #disclaimer {
         font-size: 4.5vw;
+    }
+}
+
+@media screen and (max-width: 440px)  {
+    .blog-paragraph {
+        font-size: 3.5vw;
+    }
+
+    #disclaimer {
+        font-size: 5vw;
+    }
+
+    .blog-title {
+        font-size: 5vw;
+    }
+
+    .blog-section {
+        left: 50px;
+    }
+
+    #announcements-title {
+        font-size: 7vw;
     }
 }
