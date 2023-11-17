@@ -8,7 +8,8 @@ import servicepaper from "/src/files/service.pdf";
 //Resources for slides
 import may14 from "/src/files/13thmeeting.pdf";
 
-const dates = ["May 14th, 2023", "June 4th, 2023", "September 12th, 2023", "September 18th, 2023", "October 2nd, 2023", "October 30th, 2023", "November 13th, 2023", "November 27th, 2023", "December 4th, 2023", "January 8th, 2024", "January 29th, 2024", "February 26th, 2024", "March 18th, 2024", "April 1st, 2024", "April 15th, 2024", "April 29th, 2024", "May 20th, 2024"];
+
+const dates = ["May 14th, 2023", "June 4th, 2023", "October 2nd, 2023", "October 30th, 2023", "November 13th, 2023", "November 27th, 2023", "December 4th, 2023", "January 8th, 2024", "January 29th, 2024", "February 26th, 2024", "March 18th, 2024", "April 1st, 2024", "April 15th, 2024", "April 29th, 2024", "May 20th, 2024"];
 const slides = [
     may14,
     "https://www.canva.com/design/DAFk7hiDVgA/vYntPng3ipkf6AjIxbKTlw/view"
@@ -40,7 +41,7 @@ const Resources = () => {
             <a href="" target="_blank"><button>Hour Submission Form</button></a>
             <a href={servicepaper} download="service.pdf" target="_blank"><button>Community Service Sheet</button></a>
             <a href="" target="_blank"><button>Missed Meeting Form</button></a>
-            <a href="" target="_blank"><button>Election Interest Slides</button></a>
+            <a href="https://docs.google.com/document/d/1vTMX-Mm2PXQdTaUlNr_qqRT3gvqiZPbacU5GPgJRrbY/edit?usp=sharing" target="_blank"><button>Service Events</button></a>
             <a href="" target="_blank"><button>DCON Info</button></a>
             </div>
             <h2 id="slides" className="note">Meeting slides..</h2>
