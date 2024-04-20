@@ -11,8 +11,9 @@ import oct30 from "/src/files/kc1st.pdf";
 import nov13 from "/src/files/kc2nd.pdf";
 import nov27 from "/src/files/kc3rd.pdf";
 import jan8 from "/src/files/kc4th.pdf";
+import feb12 from "/src/files/kc5th.pdf";
 
-const dates = ["May 14th, 2023", "June 4th, 2023", "October 30th, 2023", "November 13th, 2023", "November 27th, 2023", "December 4th, 2023 (NO SLIDES - ELECTIONS)", "January 8th, 2024", "January 29th, 2024", "February 26th, 2024", "March 18th, 2024", "April 1st, 2024", "April 15th, 2024", "April 29th, 2024", "May 20th, 2024"];
+const dates = ["May 14th, 2023", "June 4th, 2023", "October 30th, 2023", "November 13th, 2023", "November 27th, 2023", "December 4th, 2023 (NO SLIDES - ELECTIONS)", "January 8th, 2024", "January 29th, 2024", "February 12th, 2024"];
 const slides = [
     may14,
     "https://www.canva.com/design/DAFk7hiDVgA/vYntPng3ipkf6AjIxbKTlw/view",
@@ -20,7 +21,8 @@ const slides = [
     nov13,
     nov27,
     "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    jan8
+    jan8,
+    feb12
 ];
 
 let meetingLinks: React.ReactElement<any, string | React.JSXElementConstructor<any>> | JSX.Element[] = [];
