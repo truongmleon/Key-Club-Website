@@ -47,12 +47,10 @@ const Resources = () => {
                 <li>A meeting consists of slides with service opportunities, quick announcements, activities (in afternoon meetings), contact information, and more!</li>
             </ul>
             <div id="btn-grid">
-            <a href="" target="_blank"><button>Membership Form</button></a>
-            <a href="" target="_blank"><button>Hour Submission Form</button></a>
+            <a href="https://nam02.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSc9SBb7drLi8_jHGitQC3XIc-J2kecBb0uMD_AIFqSTEFLrCQ%2Fviewform%3Fusp%3Dsf_link&data=05%7C02%7CSN350851%40kent.k12.wa.us%7Cf706d653697d47e8e0e408dc6167db6f%7C773029edd6c2480ba5a2281c6d30235e%7C0%7C0%7C638492345910448750%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=ItMpxIZIc9RtuiSROqs1oq4c5cJ6iyVc%2FmfDFR1w6XQ%3D&reserved=0" target="_blank"><button>Hour Submission Form</button></a>
             <a href={servicepaper} download="service.pdf" target="_blank"><button>Community Service Sheet</button></a>
-            <a href="" target="_blank"><button>Missed Meeting Form</button></a>
             <a href="https://docs.google.com/document/d/1vTMX-Mm2PXQdTaUlNr_qqRT3gvqiZPbacU5GPgJRrbY/edit?usp=sharing" target="_blank"><button>Service Events</button></a>
-            <a href="" target="_blank"><button>DCON Info</button></a>
+            <a href="https://pnwkeyclub.org/dcon-2024/" target="_blank"><button>DCON Info</button></a>
             </div>
             <h2 id="slides" className="note">Meeting slides..</h2>
             <ul id="links">
