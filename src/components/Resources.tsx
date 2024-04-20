@@ -13,7 +13,7 @@ import nov27 from "/src/files/kc3rd.pdf";
 import jan8 from "/src/files/kc4th.pdf";
 import feb12 from "/src/files/kc5th.pdf";
 
-const dates = ["May 14th, 2023", "June 4th, 2023", "October 30th, 2023", "November 13th, 2023", "November 27th, 2023", "December 4th, 2023 (NO SLIDES - ELECTIONS)", "January 8th, 2024", "January 29th, 2024", "February 12th, 2024"];
+const dates = ["May 14th, 2023", "June 4th, 2023", "October 30th, 2023", "November 13th, 2023", "November 27th, 2023", "December 4th, 2023 (NO SLIDES - ELECTIONS)", "January 8th, 2024", "February 12th, 2024"];
 const slides = [
     may14,
     "https://www.canva.com/design/DAFk7hiDVgA/vYntPng3ipkf6AjIxbKTlw/view",
